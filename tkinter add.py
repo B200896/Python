@@ -1,0 +1,16 @@
+from tkinter import*
+root=Tk()
+root.geometry("500x500")
+root.resizable(0,0)
+un=Label(root,text="Number 1")
+un.grid(row=0,column=0,pady=25)
+e1=Entry(root,text=" ")
+e1.grid(row=0,column=1)
+un1=Label(root,text="Number 2")
+un1.grid(row=1,column=0)
+e=Entry(root,text=" ")
+e.grid(row=1,column=1)
+un2=Button(root,text="ADD")
+un2.grid(columnspan=2)
+root.mainloop()
+
